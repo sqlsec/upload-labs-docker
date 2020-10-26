@@ -1,0 +1,54 @@
+version: '2'
+services: 
+    upload-1-bypassjs:
+        image: sqlsec/ggctf-upload:v1
+        ports: 
+            - "30001:80"
+    upload-2-htaccess:
+        image: sqlsec/ggctf-upload:v2
+        ports: 
+            - "30002:80"
+    upload-3-mime:
+        image: sqlsec/ggctf-upload:v3
+        ports: 
+            - "30003:80"      
+    upload-4-header:
+        image: sqlsec/ggctf-upload:v4
+        ports: 
+            - "30004:80"
+    upload-5-str-replace:
+        image: sqlsec/ggctf-upload:v5
+        ports: 
+            - "30005:80"
+    upload-6-windows:
+        image: sqlsec/ggctf-upload:v6
+        ports: 
+            - "30006:80"
+    upload-7-00-get:
+        image: sqlsec/ggctf-upload:v7
+        ports: 
+            - "30007:80"
+    upload-8-00-post:
+        image: sqlsec/ggctf-upload:v8
+        ports: 
+            - "30008:80"
+    upload-9-phtml:
+        image: sqlsec/ggctf-upload:v9
+        ports: 
+            - "30009:80"     
+    upload-10-cpu:
+        image: sqlsec/ggctf-upload:v10
+        ports: 
+            - "30010:80"
+    upload-11-xuanran:
+        image: sqlsec/ggctf-upload:v11
+        ports: 
+            - "30011:80"
+    upload-12-move-bypass:
+        image: sqlsec/ggctf-upload:v12
+        ports: 
+            - "30012:80"
+    upload-13-audit-php:
+        image: sqlsec/ggctf-upload:v13
+        ports: 
+            - "30013:80"
